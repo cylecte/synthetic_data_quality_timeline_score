@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cylecte-kernelopt_jd232"
+name = "cylecte-synthetic_data_quality_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列AI 芯片算子优化工程师·合成数据的质量分水岭的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://cylecte.github.io"
-Repository = "https://github.com/cylecte/kernelopt_jd232"
-Issues = "https://github.com/cylecte/kernelopt_jd232/issues"
+Repository = "https://github.com/cylecte/synthetic_data_quality_timeline_score"
+Issues = "https://github.com/cylecte/synthetic_data_quality_timeline_score/issues"
 
 [project.scripts]
-kernelopt_jd232 = "kernelopt_jd232:main"
+synthetic_data_quality_timeline_score = "synthetic_data_quality_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["kernelopt_jd232"]
+py-modules = ["synthetic_data_quality_timeline_score"]
